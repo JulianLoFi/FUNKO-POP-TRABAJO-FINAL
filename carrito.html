@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARRITO</title>
+    <link rel="stylesheet" href="static/estilos.css">
+</head>
+<body>
+    <div id="navbar">
+        <p>ENVIOS GRATIS A TODO EL PAÍS POR CORREO ARG EN COMPRAS SUPERIORES A $ 35.999</p>
+    </div>
+    <div id="container">
+        <div id="sidebar">
+            <div id="logo-container">
+                <a href="index.html">
+                    <img class="logo" src="static/img/logo.png" alt="">
+                </a>
+            </div>
+            
+            <ul>
+                <button class="boton-lista">
+                    <a href="index.html">
+                        <li>Seguir Comprando</li>
+                    </a>
+                </button>
+                <li>
+                    <button class="boton-lista">
+                    <a href="carrito.html">
+                        Carrito
+                    </a>
+                </button>
+                </li>
+            </ul>
+        </div>
+
+        <div id="main-content">
+            <h1>Carrito</h1>
+            <table>  
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Categoría</th>
+                        <th align="right">Precio</th>
+                        <th>Imagen</th>
+                        <th align="right"></th>
+                    </tr>
+                </thead>         
+                <tbody id="tablaCarrito"> 
+                    
+                </tbody>
+            </table>
+
+
+        <!--Función que carga todos los productos del carrito-->
+            <script src="carrito_productos.js"></script>
+
+        <!--Función que borra el producto seleccionado del carrito-->
+           <script src="carrito_borrar.js"></script>
+
+        </div>
+    </div>
+</body>
+</html>

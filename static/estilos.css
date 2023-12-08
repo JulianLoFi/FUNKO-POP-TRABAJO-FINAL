@@ -1,0 +1,130 @@
+    
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#navbar {
+    color: #277BC0;;
+    background-color: #FFB200;;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex: 1;
+    margin: 20px;
+    background-color: #277BC0;
+    border: 2px solid lime;
+    border-radius: 1rem;
+}
+
+#sidebar {
+    flex: 1;
+    background-color: #277BC0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+#logo-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #277BC0;
+    color: white;
+}
+
+#main-content {
+    flex: 4;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid orange;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 40px 100px;
+    display: block;
+    gap: 20px;
+}
+
+#sidebar li {
+    margin-bottom: 10px;
+}
+
+td {
+    border: solid red 2px;
+    width: 200px;
+    height: 100px;
+    border-radius: 1rem;
+}
+
+td img {
+    border-radius: 1rem;
+}
+
+.logo {
+    height: 86px;
+    width: 120px;
+}
+
+.boton-lista {
+    padding: 8px;
+    margin: 4px;
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+.boton-todos {
+    padding: 8px;
+    margin: 4px;
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+        }
+
+button {
+    padding: 8px;
+    margin: 4px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.agregar-boton {
+ background-color: #4CAF50; 
+color: white; 
+padding: 10px 20px; 
+border: none; 
+border-radius: 5px; 
+cursor: pointer; 
+}
+

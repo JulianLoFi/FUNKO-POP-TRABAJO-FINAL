@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIENDA FUNKO</title>
+    <link rel="stylesheet" href="static/estilos.css">
+</head>
+<body>
+    <div id="navbar">
+        <p>ENVIOS GRATIS A TODO EL PAÍS POR CORREO ARG EN COMPRAS SUPERIORES A $ 35.999</p>
+    </div>
+    <div id="container">
+        <div id="sidebar">
+            <div id="logo-container">
+                <a href="index.html">
+                    <img class="logo" src="static/img/logo.png" alt="">
+                </a>
+            </div>
+            
+            <ul>
+                <li>
+                  <button id="boton-todos" class="boton-todos">
+                    Todos los Funko Pops!
+                  </button>
+               </li>
+               <li>
+                    <button id="marvel"   class="boton-lista">
+                        Marvel
+                    </button>  
+               </li>
+               <li>
+                    <button id="pokemon"  class="boton-lista">
+                        Pokemon
+                    </button>
+                </li>
+                <li>
+                    <button id="starwars"  class="boton-lista">
+                        Star Wars
+                  </button>                     
+                </li>
+                <li>
+                    <button id="disney"  class="boton-lista">
+                        Disney
+                    </button>
+                </li>
+                <li>
+                    <button id="carrito" class="carrito">
+                    <a href="carrito.html">
+                        Carrito
+                    </a>
+                </button>
+                </li>
+            </ul>
+        </div>
+
+        <div id="main-content">
+            <h1>Tienda Funko</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <!-- <th>Id</th> -->
+                        <th>Título</th>
+                        <th>Categoría</th>
+                        <th align="right">Precio</th>
+                        <th>Imagen</th>
+                        <th align="right"></th>
+                    </tr>
+                </thead>
+                <tbody id="tablaProductos"> 
+                    
+        <!--ACÁ SE CARGAN LOS PRODUCTOS DESDE EL JAVASCRIPT-->
+
+                </tbody>
+            </table>
+
+
+        <!--Función que carga todos los productos de la tienda-->
+            <script src="tienda_productos.js"></script>
+
+        <!--Función del botón de la categoría todos los productos-->    
+            <script src="boton_todos.js"></script>
+
+        <!--Función del botón que filtra los productos por categoría-->
+        <script src="categorias.js"></script>
+
+        <!--Función que agrega productos al carrito-->
+        <script src="carrito_agregar.js"></script>
+        </div>
+    </div>
+</body>
+</html>
