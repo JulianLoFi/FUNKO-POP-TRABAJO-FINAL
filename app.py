@@ -82,7 +82,7 @@ class Catalogo:
 #======================================= FUNCIONES ========================================       
         
         
-#============ Función para cargar inicialmento todos los productos de la tienda (GET) ==================
+#============ Función para cargar inicialmente todos los productos de la tienda (GET) ==================
     
     def listar_productos(self):
        #Consulta SQL para obtener todos los registros de la tabla 'productos'
@@ -141,7 +141,7 @@ class Catalogo:
 
         
         
-#========= Función que agrega los productos seleccionados por el botón al carrito ==============================
+#========= Función que agrega los productos seleccionados por el botón al carrito (POST) ==============================
 
 
     def agregar_al_carrito(self, id):
